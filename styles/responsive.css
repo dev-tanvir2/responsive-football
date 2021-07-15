@@ -1,0 +1,127 @@
+@media only screen and (max-width:600px) {
+    /* header */
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .left-nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .top-header{
+        display: flex;
+        flex-direction: column;
+        margin: 46px 16px 0px 15px;
+        padding-bottom: 60px;
+    }
+    .top-header-left {
+        margin-bottom: 50px;
+    }
+    .top-header-left h1{
+        width: 100%;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .top-header-right img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* players */
+
+    .top-players{
+        margin-top: 47px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        margin: 10px auto;
+    }
+    .player{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+/*    highlights */
+
+    .heighlights {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 60px 16px 43px 16px;
+    }
+    .right-highlights{
+        width: 100%;
+    }
+    .left-highlights {
+        margin-bottom: 29px;
+        width: 100%;
+    }
+
+     /* Blog Section Styles */
+
+  .blog-container {
+    grid-template-columns: 1fr;
+  }
+
+  .blog {
+    flex-direction: column;
+  }
+
+  .blog .blog-image img {
+    width: 100%;
+  }
+
+  .blog .blog-content {
+    margin: 20px 0;
+  }
+
+/* shop    */
+ .shop .container
+ {
+     width: 95%;
+     margin: 0 auto;
+ }
+     
+ .shop .products
+ {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 20px;
+     grid-row-gap: 20px;
+ }
+
+ .container .btn-shop
+ {
+     margin-top: 10px;
+ }  
+
+/* footer   */
+    .footer-area{
+        width: 100%;
+        margin-top: 47px;
+    }
+    .footer{
+        margin-top: 0;
+    }
+
+    .footer-top-img img{
+        width:276px;
+        height: auto;
+    }
+}
